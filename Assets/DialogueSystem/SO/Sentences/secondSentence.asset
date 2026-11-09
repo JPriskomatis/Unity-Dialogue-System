@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6f8cf7edfc276f469e0a5f8ba868528, type: 3}
   m_Name: secondSentence
   m_EditorClassIdentifier: ScriptableObjectsAssembly::SOSentence
-  npcName: 
+  npcName: Justin
   sentence:
     m_TableReference:
       m_TableCollectionName: GUID:9691390bf9a454a498ac9b9aa75aa9e6

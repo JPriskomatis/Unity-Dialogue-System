@@ -1,0 +1,36 @@
+{
+    "version": 1,
+    "name": "DialogueInput",
+    "maps": [
+        {
+            "name": "Dialogue",
+            "id": "6a84f421-ded3-4816-a2e8-ffabde897f39",
+            "actions": [
+                {
+                    "name": "NextSentence",
+                    "type": "Button",
+                    "id": "35413dae-54cc-4537-9747-bd837cee556d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "107a64c1-ad86-4c07-a793-fc87c29b2132",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NextSentence",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

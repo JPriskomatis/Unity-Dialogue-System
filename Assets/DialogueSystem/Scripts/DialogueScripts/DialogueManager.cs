@@ -50,6 +50,12 @@ public class DialogueManager : MonoBehaviour
 
         //We set our current conversation;
         currentConversation = conversation;
+
+        if(currentConversation.conversation.Count == 0)
+        {
+            Debug.LogWarning("Need to add sentences to the conversation");
+            return;
+        }
         OnInitializeConversation?.Invoke();
 
         //We immobilize our player and maybe point the camera to the person they speak to;
@@ -72,6 +78,7 @@ public class DialogueManager : MonoBehaviour
 
         if (!isFinished)
         {
+            Debug.Log("Press spacebar - sentence is not finished");
             OnRequestAutocompleteSentence?.Invoke();
             return;
         }

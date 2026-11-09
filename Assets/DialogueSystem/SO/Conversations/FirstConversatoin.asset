@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c28d69aa3ec07040a1f7153a31249bb, type: 3}
   m_Name: FirstConversatoin
   m_EditorClassIdentifier: ScriptableObjectsAssembly::SOConversation
-  conversation: []
+  conversation:
+  - {fileID: 11400000, guid: 17709ed2dd14e0c49b7cdd15548272d0, type: 2}
+  - {fileID: 11400000, guid: 509d36ea9546a66488bc0b36d98596c2, type: 2}
   OnEndConversation: {fileID: 0}
