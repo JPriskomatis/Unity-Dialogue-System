@@ -191,6 +191,3 @@ This project focuses on a few important software engineering principles:
 - **Data-Driven Design:** Conversations are configured through ScriptableObjects rather than hardcoded dialogue sequences.
 - **Extensibility:** The architecture provides a foundation for additional dialogue features, such as branching conversations, character portraits, dialogue choices, and gameplay interactions.
 
-## Project Status
-
-This project is an ongoing implementation of a modular dialogue framework for Unity. Its architecture is designed to support further expansion while maintaining clear separation between dialogue logic and presentation.
