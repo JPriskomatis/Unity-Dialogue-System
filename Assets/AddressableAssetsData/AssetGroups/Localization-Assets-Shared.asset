@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Shared
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Localization-Assets-Shared
+  m_GUID: f86cafa32caeaf74a9e7b7095be9e127
+  m_SerializeEntries:
+  - m_GUID: 9691390bf9a454a498ac9b9aa75aa9e6
+    m_Address: Assets/DialogueSystem/Localization/LocalizationTables/Conversations Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 104e58bc328627d41ab008f8ac4e5843, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 60bb35f8eb5255e47ab16e04dc3166fb, type: 2}
+    - {fileID: 11400000, guid: de192944264549444b42d5877f25c2fe, type: 2}
+    - {fileID: 11400000, guid: 2d0e82db86967ed4ca0387329aa44edf, type: 2}
